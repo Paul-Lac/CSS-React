@@ -1,0 +1,50 @@
+card {
+display: flex;
+flex-direction: column;
+width: 35rem;
+margin: 3rem auto;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: rgb(255, 240, 243);
+border-radius: 3px;
+
+    .top-container {
+    border-bottom: 1px solid rgb(252, 226, 230);
+    display: flex; 
+
+        img {
+        width: 15rem;
+        border-radius: 3px;
+        }
+
+        .desc-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+            h1 {
+            color: rgb(245, 78, 106);
+
+            }
+            p {
+            color: rgb(245, 78, 106);
+            }
+        }
+
+       }
+    
+    .bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        img {
+            width: 2rem;
+        }
+        p {
+            padding: 1rem;
+            color: rgb(245, 78, 106);
+        }
+    }
+
+
+}
